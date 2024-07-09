@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Lock/Unlock</title>
+</head>
+<body>
+    
+    <header class="header">
+        <img id="header_img" src="img/Logo.png" alt="">
+        <h1 id="header_h1">Encriptador/Desencriptador de Textos.</h1>
+    </header>
+
+    <main class="conteiner">
+
+        <section id="text_In">
+
+            <textarea id="input_Text" name="inputText" placeholder="Ingrese el texto aquí..."></textarea>
+
+            <div id="reglas">
+                <img src="img/Group.png" alt="">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="btn">
+                <button id="encrypt_btn">Encriptar!</button>
+                <button id="decrypt_btn">Desencriptar!</button>
+            </div>
+        </section>
+
+        <section id="text_Out">
+            <textarea id="output_Text" name="outputText" placeholder=""></textarea>
+
+            <img id="man_search" src="img/Muñeco.png" alt="man_search">
+
+            <button id="btn_copiar">Copiar</button>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+    
+    <footer>
+        &#169; <strong>José Ruiz - 2024</strong>
+    </footer>
+    
+    
+
+</body>
+</html>
